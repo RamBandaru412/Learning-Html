@@ -1,0 +1,27 @@
+body {
+    margin-top: 0px;
+    display:;
+}
+.first{
+    display: flex;
+    background-color: aqua;
+    justify-content: right;
+}
+div ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+}
+.box {
+    border:2px solid;
+    padding: 100px;
+    margin-top: 10%;
+    margin-left: 30%;
+    margin-right: 30%;
+    align-items: justify;
+}
+button{
+    background-color: red;
+    align-items: center;
+}
+ 
