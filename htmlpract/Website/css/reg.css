@@ -1,0 +1,31 @@
+
+.box{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 50px;
+    border: 2px solid;
+    margin: 50px 50px 0px 50px;
+    font-size: 15px;
+    gap: 5px;
+}
+div.box input {
+    padding: 5px 3px;
+}
+button {
+    display: flex;
+    padding: 10px;
+    width:100px;
+    margin-left: 80px;
+    margin-right: 50px;
+    justify-content: center;
+}
+.foot input {
+    width : 20px;
+}
+@media screen and (max-width 800px){
+    body{
+        background-color: red;
+        margin-left:50%;
+        width : 100px;
+    }
+}
