@@ -7,37 +7,36 @@
     <link rel="shortcut icon" href="https://www.shutterstock.com/image-vector/letter-r-logo-icon-design-260nw-1048102795.jpg" type="image/x-icon">
     <link rel="stylesheet" href="./css/reg.css">
 </head>
-<body>
-    <div>
-
-    </div>
-    <div class="box">
-        <label for="uname">User name:</label>
-        <input type="text" name="" id="uname">
+    <body>
+     <div class="box">
+        <form action="main.py">
+        <label for="uname"> User name : </label>
+        <input type="text" name="" id="uname" required>
         <label for="ph">Phone : </label>
-        <input type="number" name="" id="ph">
-        <label for="mail">Email</label>
-        <input type="email" name="" id="mail">
-        <label for="adh">Adhaar No:</label>
-        <input type="number" name="" id="adh">
+        <input type="number" name="" id="ph" required>
+        <label for="mail">Email : </label>
+        <input type="email" name="" id="mail"required>
+        <label for="adh">Adhaar No : </label>
+        <input type="number" name="" id="adh"required>
         <label for="id">Upload Adhaar : </label>
-        <input type="file" name="" id="id">
-        <div>
-        <input type="radio" name="Gender" id="M" value="Male">
+        <input type="file" name="" id="id" required>
+        <div class="gender">
+        <input type="radio" name="Gender" id="M" value="Male" >
         <label for="M">Male</label>
         <input type="radio" name="Gender" id="F" value="Female">
         <label for="F">Female</label>
         </div>
-        <label for="pas">Password</label>
-        <input type="password" name="" id="pas">
+        <label for="pas">Password : </label>
+        <input type="password" name="" id="pas" required>
         <label for="cp">Conform Password : </label>
-        <input type="password" name="" id="cp">
+        <input type="password" name="" id="cp" required>
         <button>Register</button>
-        <div class = "foot">
-        <input type="checkbox" name="" id="agree">
-        <label for="agree">I agree the terms and conditions.....</label><br>
+        <div class="footer">
+        <input type="checkbox" name="" id="agree" required>
+        <label for="agree">I agree the terms and conditions.....</label>
         <a href = "login.html">Already having account</a>
         </div>
-    </div>
-</body>
+        </form>
+     </div>
+    </body>
 </html>

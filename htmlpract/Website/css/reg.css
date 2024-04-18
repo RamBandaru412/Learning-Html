@@ -1,31 +1,42 @@
-
+body {
+    background-color:peachpuff;
+    box-sizing: border-box;
+}
 .box{
+    background-color:white;
     display: flex;
-    flex-direction: column;
-    padding: 30px 50px;
     border: 2px solid;
-    margin: 50px 50px 0px 50px;
-    font-size: 15px;
-    gap: 5px;
+    margin :5% 40% 0% 40%;
 }
-div.box input {
-    padding: 5px 3px;
+form {
+    display: grid;
+    padding: 5% 10%;
+    gap:10px;
 }
+
 button {
+    background-color: green;
     display: flex;
-    padding: 10px;
-    width:100px;
-    margin-left: 80px;
-    margin-right: 50px;
+    padding: 2px;
     justify-content: center;
 }
-.foot input {
-    width : 20px;
+button:hover {
+    background-color: red;
 }
-@media screen and (max-width 800px){
-    body{
-        background-color: red;
-        margin-left:50%;
-        width : 100px;
+.footer {
+    display: flex;
+    font-size: small;
+}
+input{
+    padding: 5px;
+}
+@media  screen and (max-width: 900px) {
+    .box {
+        margin :10%;
     }
+    
+}
+@media screen and (max-width :275px)
+.box {
+    margin :5%;
 }
