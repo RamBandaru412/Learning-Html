@@ -11,15 +11,15 @@
      <div class="box">
         <form action="main.py">
         <label for="uname"> User name : </label>
-        <input type="text" name="" id="uname" required>
+        <input type="text" name="username" id="uname" value=""required>
         <label for="ph">Phone : </label>
-        <input type="number" name="" id="ph" required>
+        <input type="number" name="Phone" id="ph" value="" required>
         <label for="mail">Email : </label>
-        <input type="email" name="" id="mail"required>
+        <input type="email" name="Email" id="mail" value="" required>
         <label for="adh">Adhaar No : </label>
-        <input type="number" name="" id="adh"required>
+        <input type="number" name="AdhaarNo" id="adh"value="" required>
         <label for="id">Upload Adhaar : </label>
-        <input type="file" name="" id="id" required>
+        <input type="file" name="File" id="id" value="" required>
         <div class="gender">
         <input type="radio" name="Gender" id="M" value="Male" >
         <label for="M">Male</label>
@@ -27,9 +27,9 @@
         <label for="F">Female</label>
         </div>
         <label for="pas">Password : </label>
-        <input type="password" name="" id="pas" required>
+        <input type="password" name="Password" id="pas" value="" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number, one uppercase and lowercase letter, and at least 8 characters" required>
         <label for="cp">Conform Password : </label>
-        <input type="password" name="" id="cp" required>
+        <input type="password" name="Conform password" id="cp" value="" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number, one uppercase and lowercase letter, and at least 8 characters" required>
         <button>Register</button>
         <div class="footer">
         <input type="checkbox" name="" id="agree" required>

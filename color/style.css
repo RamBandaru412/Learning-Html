@@ -1,0 +1,24 @@
+body {
+    box-sizing: border-box;
+    background-color:rgb(141, 133, 145);
+}
+body.dark-mode {
+    background-color: black;
+    color: white;
+}
+body.light-mode {
+    background-color: white;
+    color:black;
+}
+button {
+    padding: 10px;
+    border-radius: 8px;
+    background-color:rgb(93, 237, 132);
+    float: left;
+}
+#bg {
+    background-color:rgb(105, 231, 243);
+}
+.mode {
+    float: right;
+}

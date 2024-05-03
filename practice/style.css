@@ -1,0 +1,13 @@
+body {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+form {
+    background-color: antiquewhite;
+}
+button {
+    margin-left: 40%;
+}
